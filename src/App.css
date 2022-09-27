@@ -1,0 +1,43 @@
+.header-fixed {
+  position: sticky;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 5%);
+  background-color: #fff !important;
+  top: 0px;
+}
+
+.font-color {
+  color: #30384d !important;
+}
+
+.search-input {
+  background-color: #f7f7f7;
+  border: none;
+  outline: none;
+  font-size: 0.8em;
+  color: #30384d;
+  font-weight: 500;
+
+}
+
+.search-input::placeholder {
+  color: #7e8a9a;
+  font-weight: 500;
+}
+
+.search-input:focus {
+  box-shadow: none;
+  background-color: #f7f7f7;
+
+}
+
+.product-name {
+  font-size: 0.85em;
+  color: #30384d !important;
+  font-weight: 700;
+}
+
+.product-short-text {
+  font-weight: 500;
+  font-size: 0.7em;
+  color: #7e8a9a;
+}
